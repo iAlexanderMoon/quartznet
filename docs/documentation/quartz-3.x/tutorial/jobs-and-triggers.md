@@ -17,7 +17,7 @@ namespace Quartz
 {
     public interface IJob
     {
-        Task Execute(JobExecutionContext context);
+        Task Execute(IJobExecutionContext context);
     }
 }
 ```
